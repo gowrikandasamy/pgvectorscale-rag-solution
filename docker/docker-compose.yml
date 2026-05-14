@@ -5,8 +5,8 @@ services:
     image: timescale/timescaledb-ha:pg16
     container_name: timescaledb
     environment:
-      - POSTGRES_DB=postgres
-      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=postgres1
+      - POSTGRES_PASSWORD=root
     ports:
       - "5432:5432"
     volumes:
